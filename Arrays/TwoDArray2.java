@@ -13,6 +13,7 @@ public class TwoDArray2 {
         System.out.println("Enter the size of columns of array");
         int columns = sc.nextInt();
         int[][] numbers = new int[rows][columns];
+        
 
         System.out.println("Enter the array elements: ");
         for (i = 0; i < rows; i++) {
